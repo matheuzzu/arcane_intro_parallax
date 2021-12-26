@@ -7,7 +7,7 @@
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Ubuntu', sans-serif;
-    --fonte3  'Roboto', sans-serif;
+    --fonte3:  'Roboto', sans-serif;
 }
 
 * {
@@ -68,6 +68,15 @@ section.image {
 section.image > p {
     width: 400px;
     background-color: rgb(29, 29, 29);
+}
+section#img01 {
+    background-image: url(../arcane_intro_parallax/Arcane-game.jpg);
+    background-size: center top;
+}
+
+section#img02 {
+    background-image: url(../arcane_intro_parallax/maxresdefault.jpg);
+    background-size: cover;
 }
 
 footer {
